@@ -43,7 +43,7 @@ class App extends Component {
     const labels = Object.keys({ good, neutral, bad });
     const total = this.countTotalFeedback();
     return (
-      <>
+      <div className="app-block">
         <Section title="Please leave feedback">
           <FeedbackOptions labels={labels} onLeaveFeedback={this.addFeedback} />
         </Section>
@@ -60,7 +60,7 @@ class App extends Component {
         ) : (
           <Notification message="No feedback given" />
         )}
-      </>
+      </div>
     );
   }
 }

@@ -2,7 +2,7 @@ import s from './Notification.module.css';
 import PropTypes from 'prop-types';
 
 function Notification({ message }) {
-  return <span>{message}</span>;
+  return <span className={s.notify}>{message}</span>;
 }
 
 Notification.propTypes = {
