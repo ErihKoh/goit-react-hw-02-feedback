@@ -10,6 +10,7 @@
   border: none;
   outline: none;
   background-color: #ffe4b5;
+  cursor: pointer;
 }
 
 .optionsBtn:hover {
